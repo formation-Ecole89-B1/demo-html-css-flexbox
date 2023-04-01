@@ -1,0 +1,40 @@
+.balise1 {
+    height: 400px;
+    display: flex;
+    flex-direction: row; /* choisir l'orientation des éléments enfants */
+    flex-wrap: wrap; /* aller à la ligne ou non wrap /nowrap*/
+    justify-content: space-between; /* définir l'espace entre chaque élément start/end/center/space-around/space-evenly/space-between*/
+    align-items: center;/* définir la position vertical de chaque élément */
+    column-gap: 20px;
+    background: palegoldenrod;
+}
+.rouge {
+    background: red;
+    width: 30%;
+    order: 3;
+}
+
+.bleu {
+    background: blue;
+    width:30%;
+    order: 10;
+}
+
+.vert {
+    background: green;
+    width:30%;
+    order: -1;
+}
+
+.jaune {
+    background: yellow;
+    width:30%;
+    order: 4;
+}
+
+.noir {
+    background: black;
+    color: white;
+    width:30%;
+    order: 2;
+}
